@@ -1,4 +1,4 @@
-# godot-modloader
+# godot-modloader aka Yet Another Crude Mod Loader (YACML)
 (Hopefully) Universal mod loader for Godot based games
 
 # License
