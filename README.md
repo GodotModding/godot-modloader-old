@@ -1,4 +1,7 @@
 # godot-modloader
-Universal modloader for Godot based games
+(Hopefully) Universal mod loader for Godot based games
 
-These fonts are licensed under the Apache License, Version 2.0.
+# License
+
+The source code of the module is licensed under MIT license.
+The font is licensed under the Apache License, Version 2.0.
