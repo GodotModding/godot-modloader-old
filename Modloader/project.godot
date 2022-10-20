@@ -12,7 +12,7 @@ config_version=4
 
 config/name="Modloader"
 config/description="This uses functions in SceneTree to switch between two scenes."
-run/main_scene="res://scene_a.tscn"
+run/main_scene="res://ModLoader.tscn"
 
 [debug]
 
@@ -26,12 +26,15 @@ window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/godot_modding/plugin.cfg" )
+
 [gdnative]
 
 singletons=[  ]
 
 [rendering]
 
-quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
